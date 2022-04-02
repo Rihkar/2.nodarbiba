@@ -1,41 +1,23 @@
 * {
   box-sizing: border-box;
 }
+@import 'container-navigations.scss';
+@import 'container-cta.scss';
+@import 'container-footer.scss';
+@import 'container-header1b.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
-.container{
-  display: flex;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;  
-  justify-content: space-between;
-  font-family: 'Poppins', sans-serif;
-
+html, body {
+  min-height: 100%;
 }
-.navigation{
-  display: flex;
-  gap: 48px;
+body{
+  background-color: grey;
+}
+a{
   text-decoration: none;
-  color: #556987;
+  color: black;
+  padding-bottom: 16px;
 }
 
-.buttons__1{
-color: #556987;
-border: none;
-}
 
-.buttons__2{
-background-color: #22C55E;
-border-radius: 6px;
-border: 1px solid #22C55E;
-color: #F0FDF4;
-height: 36px;
-width: 86px;
-}
-.text__1{
-  width: 456px;
-  height: 88px;
-  background-color: blue;
-  align-items: center;
-}
+

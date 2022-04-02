@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;  
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 50px;
+    background-color: #E5E5E5;
+  }
+  .navigation{
+    display: flex;
+    gap: 48px;
+    text-decoration: none;
+    color: #556987;    
+  }
+
+.buttons{
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+}
+.buttons__Log-in{
+color: #556987;
+border: none;
+background-color: transparent;
+}
+
+.buttons__Sign-up{
+background-color: #22C55E;
+border-radius: 6px;
+border: 1px solid #22C55E;
+color: #F0FDF4;
+height: 36px;
+width: 86px;
+}
+.inner-container__text-box{
+max-width:456px;
+width:100%; 
+}
+
+.text-box__text-1{
+  max-width: 456px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 36px;
+}
+.text-box__text-2{
+  max-width: 456px;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 500;
+  color: #556987;
+}
